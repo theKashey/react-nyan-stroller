@@ -1,7 +1,7 @@
-import {NyanScrollBar,NyanScrollBarComponent,NyanScrollContainer} from './component'
+import {NyanStrollBar,NyanStrollBarComponent,NyanStrollContainer} from './component'
 
 export {
-  NyanScrollBarComponent,
-  NyanScrollContainer,
-  NyanScrollBar
+  NyanStrollBarComponent,
+  NyanStrollContainer,
+  NyanStrollBar
 }

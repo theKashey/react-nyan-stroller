@@ -30,7 +30,7 @@ const positions = {
   }
 };
 
-export const NyanScrollBarComponent: React.SFC<IStrollerBarProps> = ({
+export const NyanStrollBarComponent: React.SFC<IStrollerBarProps> = ({
                                                     mainScroll,
                                                     targetScroll,
                                                     forwardRef,
@@ -98,9 +98,9 @@ export const NyanScrollBarComponent: React.SFC<IStrollerBarProps> = ({
   );
 }
 
-export const NyanScrollBar:React.SFC<IStrollerProps> =
-  (props) => <Stroller {...props} scrollBar={NyanScrollBarComponent}/>
+export const NyanStrollBar:React.SFC<IStrollerProps> =
+  (props) => <Stroller {...props} scrollBar={NyanStrollBarComponent}/>
 
 
-export const NyanScrollContainer:React.SFC<IContainerProps & IStrollerProps> =
-  (props) => <StrollableContainer {...props} scrollBar={NyanScrollBarComponent}/>
+export const NyanStrollContainer:React.SFC<IContainerProps & IStrollerProps> =
+  (props) => <StrollableContainer {...props} scrollBar={NyanStrollBarComponent}/>
