@@ -1,0 +1,44 @@
+{
+  "name": "react-nyan-stroller",
+  "version": "0.0.1",
+  "description": "Adds NyanCat scroll to the browser! Nyanyanyanyanyanyanya!",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "ts-react-toolbox test",
+    "bootstrap": "ts-react-toolbox init",
+    "dev": "ts-react-toolbox dev",
+    "test:ci": "ts-react-toolbox test --runInBand --coverage",
+    "test:size": "size-limit",
+    "build": "ts-react-toolbox build",
+    "release": "ts-react-toolbox release",
+    "lint": "ts-react-toolbox lint",
+    "static": "ts-react-toolbox publish",
+    "format": "ts-react-toolbox format",
+    "analyze": "ts-react-toolbox analyze"
+  },
+  "devDependencies": {
+    "size-limit": "^0.18.1",
+    "ts-react-toolbox": "^0.1.10"
+  },
+  "engines": {
+    "node": ">=8.5.0"
+  },
+  "peerDependencies": {
+    "react": "^16.3.0"
+  },
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "repository": "",
+  "author": "theKashey <thekashey@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "nyancat",
+    "scrollbar",
+    "stroller"
+  ],
+  "dependencies": {
+    "react-stroller": "^1.2.1"
+  }
+}
