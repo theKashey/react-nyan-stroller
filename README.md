@@ -17,7 +17,7 @@
 Based on [react-stroller](https://github.com/theKashey/react-stroller), as long who can better stroll your pages than Cat?
 Support vertical, horizontal, mixed(horizontal view reflecting vertical scroll) scrolling and dragging.
 For a page or any scrollable container.
-[Demo](https://codesandbox.io/s/mm5xq5kv5y) 
+[Demo](https://codesandbox.io/s/j2l71rrxw) 
 
 # API
 Nyan-stroller just overrides `scrollBar` property of react-stroller. Library exposes 3 components.
