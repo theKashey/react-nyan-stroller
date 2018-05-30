@@ -2,13 +2,14 @@
   <h1>Nyanyanyanyanyanyanya! 🙀</h1>
   Nyan Cat React Custom Scroll Bar
   <br/>
-  <img src="./asserts/cat.gif" alt="Cat!" height="80" align="center"/>
+  <img src="./assets/cat.gif" alt="Cat!" height="80" align="center"/>
   
   <a href="https://www.npmjs.com/package/react-nyan-stroller">
    <img src="https://img.shields.io/npm/v/react-nyan-stroller.svg?style=flat-square" />
   </a>
   
   <br/>  
+  <img src="./assets/cat-strolling.gif" alt="strolling" height="61" align="center"/>
 </div>  
 
 -----
