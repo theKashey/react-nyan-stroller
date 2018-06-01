@@ -14,6 +14,9 @@
 </div>  
 
 -----
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/theKashey/react-nyan-stroller.svg)](https://greenkeeper.io/)
+
 Based on [react-stroller](https://github.com/theKashey/react-stroller), as long who can better stroll your pages than Cat?
 Support vertical, horizontal, mixed(horizontal view reflecting vertical scroll) scrolling and dragging.
 For a page or any scrollable container.
