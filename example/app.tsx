@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {Component} from 'react';
-import {NyanScrollBar, NyanScrollContainer} from "../src";
+import {NyanStrollBar, NyanStrollContainer} from "../src";
 import {AppWrapper} from './styled';
 import styled from 'styled-components';
 
@@ -32,40 +32,40 @@ export default class App extends Component <{}, AppState> {
     return (
       <AppWrapper>
         <Block>
-          <NyanScrollContainer draggable>
+          <NyanStrollContainer draggable>
             Scroll Me!
             <UL/>
             <UL/>
-          </NyanScrollContainer>
+          </NyanStrollContainer>
         </Block>
         <br/>
         <Block>
-          <NyanScrollContainer draggable targetAxis="horizontal">
+          <NyanStrollContainer draggable targetAxis="horizontal">
             Scroll Me!
             <UL/>
             <UL/>
-          </NyanScrollContainer>
+          </NyanStrollContainer>
         </Block>
         <br/>
         <Block>
-          <NyanScrollContainer oppositePosition>
+          <NyanStrollContainer oppositePosition>
             Scroll Me!
             <UL/>
             <UL/>
-          </NyanScrollContainer>
+          </NyanStrollContainer>
         </Block>
         <br/>
         <Block>
-          <NyanScrollContainer targetAxis="horizontal" oppositePosition>
+          <NyanStrollContainer targetAxis="horizontal" oppositePosition>
             Scroll Me!
             <UL/>
             <UL/>
-          </NyanScrollContainer>
+          </NyanStrollContainer>
         </Block>
         <UL/>
         <UL/>
 
-        <NyanScrollBar targetAxis="horizontal" draggable/>
+        <NyanStrollBar targetAxis="horizontal" draggable/>
       </AppWrapper>
     )
   }

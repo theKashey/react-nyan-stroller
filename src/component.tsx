@@ -1,8 +1,8 @@
 import * as React from 'react';
 import {StrollableContainer, Stroller} from 'react-stroller';
-import {IStrollerBarProps} from "react-stroller/dist/Bar";
-import {IStrollerProps} from "react-stroller/dist/Stroller";
-import {IContainerProps} from "react-stroller/dist/Container";
+import {IStrollerBarProps} from "react-stroller/dist/es5/Bar";
+import {IStrollerProps} from "react-stroller/dist/es5/Stroller";
+import {IContainerProps} from "react-stroller/dist/es5/Container";
 
 import {nyanCatGif} from "./nyan";
 

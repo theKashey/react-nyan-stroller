@@ -6492,9 +6492,9 @@ react-reconciler@^0.7.0:
     object-assign "^4.1.1"
     prop-types "^15.6.0"
 
-react-stroller@^1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/react-stroller/-/react-stroller-1.2.1.tgz#0df8e425cad24163f6f7b5aaafb94b1a2edc8ea7"
+react-stroller@^1.5.1:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/react-stroller/-/react-stroller-1.5.1.tgz#e44e5a4634e392a296905cef89f4556d7b35c837"
   dependencies:
     faste "^1.0.3"
 

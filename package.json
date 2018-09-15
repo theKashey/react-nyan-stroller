@@ -14,7 +14,7 @@
     "lint": "ts-react-toolbox lint",
     "static": "ts-react-toolbox publish",
     "format": "ts-react-toolbox format",
-    "analyze": "ts-react-toolbox analyze"
+    "analyze": "ts-react-tocolbox analyze"
   },
   "devDependencies": {
     "size-limit": "^0.18.1",
@@ -30,7 +30,10 @@
   "files": [
     "dist"
   ],
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theKashey/react-nyan-stroller.git"
+  },
   "author": "theKashey <thekashey@gmail.com>",
   "license": "MIT",
   "keywords": [
@@ -39,6 +42,6 @@
     "stroller"
   ],
   "dependencies": {
-    "react-stroller": "^1.2.1"
+    "react-stroller": "^1.5.1"
   }
 }
